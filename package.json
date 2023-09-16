@@ -90,10 +90,5 @@
     "commitizen": {
       "path": "node_modules/cz-git"
     }
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   }
 }
