@@ -1,0 +1,192 @@
+{
+  "name": "tmui3.0",
+  "appid": "__UNI__D102CFC",
+  "description": "tmui3.0新一代组件库，拥抱vue3,pinia,tmui3.0 demo展示应用",
+  "versionName": "3.1.08",
+  "versionCode": "100",
+  "transformPx": false,
+  "app-plus": {
+    "usingComponents": true,
+    "ignoreVersion": true,
+    "nvueStyleCompiler": "uni-app",
+    "compilerVersion": 3,
+    "splashscreen": {
+      "alwaysShowBeforeRender": true,
+      "waiting": true,
+      "autoclose": true,
+      "delay": 0
+    },
+    "modules": {
+      "Canvas": "nvue canvas",
+      "VideoPlayer": {},
+      "Camera": {},
+      "Barcode": {}
+    },
+    "distribute": {
+      "android": {
+        "permissions": [
+          "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+          "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+          "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+          "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+          "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+          "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+          "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+          "<uses-feature android:name=\"android.hardware.camera\"/>",
+          "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
+        ],
+        "minSdkVersion": 21,
+        "abiFilters": ["armeabi-v7a", "arm64-v8a", "x86"]
+      },
+      "ios": {
+        "idfa": false,
+        "dSYMs": false
+      },
+      "sdkConfigs": {
+        "ad": {}
+      },
+      "icons": {
+        "android": {
+          "hdpi": "",
+          "xhdpi": "",
+          "xxhdpi": "",
+          "xxxhdpi": ""
+        },
+        "ios": {
+          "appstore": "",
+          "ipad": {
+            "app": "",
+            "app@2x": "",
+            "notification": "",
+            "notification@2x": "",
+            "proapp@2x": "",
+            "settings": "",
+            "settings@2x": "",
+            "spotlight": "",
+            "spotlight@2x": ""
+          },
+          "iphone": {
+            "app@2x": "",
+            "app@3x": "",
+            "notification@2x": "",
+            "notification@3x": "",
+            "settings@2x": "",
+            "settings@3x": "",
+            "spotlight@2x": "",
+            "spotlight@3x": ""
+          }
+        }
+      },
+      "splashscreen": {
+        "useOriginalMsgbox": true
+      }
+    },
+    "uniStatistics": {
+      "enable": false
+    }
+  },
+  "quickapp": {},
+  "mp-weixin": {
+    "appid": "",
+    "darkmode": true,
+    "setting": {
+      "urlCheck": false,
+      "es6": true,
+      "minified": true
+    },
+    "usingComponents": true,
+    "uniStatistics": {
+      "enable": false
+    }
+  },
+  "mp-alipay": {
+    "usingComponents": true,
+    "uniStatistics": {
+      "enable": false
+    },
+    "appid": ""
+  },
+  "mp-baidu": {
+    "usingComponents": true,
+    "uniStatistics": {
+      "enable": false
+    }
+  },
+  "mp-toutiao": {
+    "usingProvide": true,
+    "usingComponents": true,
+    "uniStatistics": {
+      "enable": false
+    },
+    "setting": {
+      "es6": true,
+      "minified": true,
+      "urlCheck": false
+    }
+  },
+  "uniStatistics": {
+    "enable": false,
+    "version": "2"
+  },
+  "vueVersion": "3",
+  "h5": {
+    "uniStatistics": {
+      "enable": false
+    },
+    "title": "tmui3.0",
+    "router": {
+      "mode": "hash"
+    },
+    "optimization": {
+      "subPackages": true,
+      "treeShaking": {
+        "enable": true
+      }
+    },
+    "devServer": {
+      "https": false
+    }
+  },
+  "mp-jd": {
+    "uniStatistics": {
+      "enable": false
+    }
+  },
+  "mp-kuaishou": {
+    "uniStatistics": {
+      "enable": false
+    }
+  },
+  "mp-lark": {
+    "uniStatistics": {
+      "enable": false
+    }
+  },
+  "mp-qq": {
+    "uniStatistics": {
+      "enable": false
+    },
+    "setting": {
+      "es6": true,
+      "minified": true,
+      "urlCheck": false
+    },
+    "appid": ""
+  },
+  "quickapp-webview-huawei": {
+    "uniStatistics": {
+      "enable": false
+    }
+  },
+  "quickapp-webview-union": {
+    "uniStatistics": {
+      "enable": false
+    }
+  }
+}
